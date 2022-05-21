@@ -15,13 +15,13 @@ const imagemAleatoria = () => {
     const imagens = [
     `https://source.unsplash.com/random/200x200?r=1`, 
     `https://source.unsplash.com/random/200x200?r=2`, 
-    `https://source.unsplash.com/random/200x200r=3`, 
-    `https://source.unsplash.com/random/200x200r=4`,
-    `https://source.unsplash.com/random/200x200r=5`,
-    `https://source.unsplash.com/random/200x200r=6`,
-    `https://source.unsplash.com/random/200x200r=7`,
-    `https://source.unsplash.com/random/200x200r=8`,
-    `https://source.unsplash.com/random/200x200r=9`,
+    `https://source.unsplash.com/random/200x200?r=3`, 
+    `https://source.unsplash.com/random/200x200?r=4`,
+    `https://source.unsplash.com/random/200x200?r=5`,
+    `https://source.unsplash.com/random/200x200?r=6`,
+    `https://source.unsplash.com/random/200x200?r=7`,
+    `https://source.unsplash.com/random/200x200?r=8`,
+    `https://source.unsplash.com/random/200x200?r=9`,
     ]; 
     let sorteada =  Math.floor(Math.random(imagens.length) * imagens.length); //Sorteia uma das imagens da lista
     let randimg = imagens[sorteada];
