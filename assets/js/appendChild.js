@@ -41,7 +41,7 @@ const atribuiValores = (containerStyle) => {
     {  
         containers[i].classList.add(classContainer); //COloca o estilo do container
         titulos[i].innerHTML = `Titulo${i+1}`;
-        imgs[i].src = imagemAleatoria(); //Atribui uma imagem aleatoria
+        imgs[i].src = `https://api.lorem.space/image/movie?w=200&h=200`; //Atribui uma imagem aleatoria
         descricoes[i].innerHTML = `Descricao`;
     }   
 }
