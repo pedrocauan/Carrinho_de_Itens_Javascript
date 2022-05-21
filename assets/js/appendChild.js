@@ -13,15 +13,15 @@ let classContainer = "vermelho"; //classe CSS de container que vai ser adicionad
 const imagemAleatoria = () => {
     //Site com as imagens aleatorias
     const imagens = [
-    `http://lorempixel.com.br/200/200?1`, 
-    `http://lorempixel.com.br/200/200?2`, 
-    `http://lorempixel.com.br/200/200?3`, 
-    `http://lorempixel.com.br/200/200?$4`,
-    `http://lorempixel.com.br/200/200?$5`,
-    `http://lorempixel.com.br/200/200?$6`,
-    `http://lorempixel.com.br/200/200?$7`,
-    `http://lorempixel.com.br/200/200?$8`,
-    `http://lorempixel.com.br/200/200?$9`,
+    `https://api.lorem.space/image/movie?w=200&h=200`, 
+    `https://api.lorem.space/image/movie?w=200&h=200`, 
+    `https://api.lorem.space/image/movie?w=200&h=200`, 
+    `https://api.lorem.space/image/movie?w=200&h=200`,
+    `https://api.lorem.space/image/movie?w=200&h=200`,
+    `https://api.lorem.space/image/movie?w=200&h=200`,
+    `https://api.lorem.space/image/movie?w=200&h=200`,
+    `https://api.lorem.space/image/movie?w=200&h=200`,
+    `https://api.lorem.space/image/movie?w=200&h=200`,
     ]; 
     let sorteada =  Math.floor(Math.random(imagens.length) * imagens.length); //Sorteia uma das imagens da lista
     let randimg = imagens[sorteada];
