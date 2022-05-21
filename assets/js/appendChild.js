@@ -13,15 +13,15 @@ let classContainer = "vermelho"; //classe CSS de container que vai ser adicionad
 const imagemAleatoria = () => {
     //Site com as imagens aleatorias
     const imagens = [
-    `https://api.lorem.space/image/movie?w=200&h=200`, 
-    `https://api.lorem.space/image/movie?w=200&h=200`, 
-    `https://api.lorem.space/image/movie?w=200&h=200`, 
-    `https://api.lorem.space/image/movie?w=200&h=200`,
-    `https://api.lorem.space/image/movie?w=200&h=200`,
-    `https://api.lorem.space/image/movie?w=200&h=200`,
-    `https://api.lorem.space/image/movie?w=200&h=200`,
-    `https://api.lorem.space/image/movie?w=200&h=200`,
-    `https://api.lorem.space/image/movie?w=200&h=200`,
+    `https://source.unsplash.com/random/200x200?r=1`, 
+    `https://source.unsplash.com/random/200x200?r=2`, 
+    `https://source.unsplash.com/random/200x200r=3`, 
+    `https://source.unsplash.com/random/200x200r=4`,
+    `https://source.unsplash.com/random/200x200r=5`,
+    `https://source.unsplash.com/random/200x200r=6`,
+    `https://source.unsplash.com/random/200x200r=7`,
+    `https://source.unsplash.com/random/200x200r=8`,
+    `https://source.unsplash.com/random/200x200r=9`,
     ]; 
     let sorteada =  Math.floor(Math.random(imagens.length) * imagens.length); //Sorteia uma das imagens da lista
     let randimg = imagens[sorteada];
@@ -41,7 +41,7 @@ const atribuiValores = (containerStyle) => {
     {  
         containers[i].classList.add(classContainer); //COloca o estilo do container
         titulos[i].innerHTML = `Titulo${i+1}`;
-        imgs[i].src = `https://api.lorem.space/image/movie?w=200&h=200`; //Atribui uma imagem aleatoria
+        imgs[i].src = imagemAleatoria(); //Atribui uma imagem aleatoria
         descricoes[i].innerHTML = `Descricao`;
     }   
 }
