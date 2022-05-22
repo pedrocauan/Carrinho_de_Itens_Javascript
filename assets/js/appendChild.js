@@ -56,6 +56,13 @@ const atribuiValores = (containerStyle) => {
     for(let i = 0; i < containers.length; i++)
     {  
         containers[i].classList.add(classContainer); //COloca o estilo do container
+        containers[i].classList.add("gira-imagem");
+        //Faz com que o item que ta do lado se mexa na direção contraria
+        if(i % 2 !== 0)
+        {
+            containers[i].classList.remove("gira-imagem");
+            containers[i].classList.add("gira-reverso");
+        }
         titulos[i].innerHTML = `Titulo${i+1}`;
         imgs[i].src = imagemAleatoria(); //Atribui uma imagem aleatoria
         descricoes[i].innerHTML = `Descricao`;
