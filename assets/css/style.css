@@ -37,6 +37,7 @@ main {
 
 /*Container (quadrado vermelho q guarda os elementos)*/
 .vermelho {
+    transform: rotate(4deg); /*efeito dele virado de lado*/
     box-sizing: border-box;
     width: 100%;
     max-width: 300px;
@@ -52,6 +53,11 @@ main {
 
 
 }
+/*Deixa o item do lado virado do lado contrario*/
+.vermelho:nth-child(2n){
+    transform: rotate(-4deg);
+}
+
 /*Deixa imagenzinha*/
 .vermelho img {
     width: 100%;
