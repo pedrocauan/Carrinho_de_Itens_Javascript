@@ -22,6 +22,22 @@ const imagemAleatoria = () => {
     `https://source.unsplash.com/random/200x200?r=7`,
     `https://source.unsplash.com/random/200x200?r=8`,
     `https://source.unsplash.com/random/200x200?r=9`,
+    `https://source.unsplash.com/random/200x200?r=10`, 
+    `https://source.unsplash.com/random/200x200?r=11`, 
+    `https://source.unsplash.com/random/200x200?r=12`,
+    `https://source.unsplash.com/random/200x200?r=13`,
+    `https://source.unsplash.com/random/200x200?r=14`,
+    `https://source.unsplash.com/random/200x200?r=15`,
+    `https://source.unsplash.com/random/200x200?r=16`,
+    `https://source.unsplash.com/random/200x200?r=17`,
+    `https://source.unsplash.com/random/200x200?r=18`, 
+    `https://source.unsplash.com/random/200x200?r=19`, 
+    `https://source.unsplash.com/random/200x200?r=20`,
+    `https://source.unsplash.com/random/200x200?r=21`,
+    `https://source.unsplash.com/random/200x200?r=22`,
+    `https://source.unsplash.com/random/200x200?r=23`,
+    `https://source.unsplash.com/random/200x200?r=24`,
+    `https://source.unsplash.com/random/200x200?r=25`
     ]; 
     let sorteada =  Math.floor(Math.random(imagens.length) * imagens.length); //Sorteia uma das imagens da lista
     let randimg = imagens[sorteada];
