@@ -4,6 +4,10 @@
 
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 10vh;
     background-color: hsl(0, 50%, 33%);
