@@ -22,7 +22,7 @@ h1 {
 
 main {
     display: grid;
-    gap: 10px;
+    gap: 35px;
     /*Ajusta a tela com os itens adicionados*/
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 }
