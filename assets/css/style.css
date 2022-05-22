@@ -93,3 +93,18 @@ button a {
 .voltaTop {
     margin-top: 20px !important;
 }
+
+
+@keyframes rotate{
+    from {transform: rotateZ(-8deg); }
+    to {transform: rotateZ(8deg);}
+}
+
+
+.gira-imagem {
+    animation: rotate 0.5s ease-in-out infinite;
+}
+
+.gira-reverso {
+    animation: rotate 0.5s ease-in-out reverse infinite;
+}
