@@ -22,7 +22,7 @@ h1 {
 
 main {
     display: grid;
-    gap: 35px;
+    gap: 40px;
     /*Ajusta a tela com os itens adicionados*/
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 }
@@ -37,7 +37,7 @@ main {
 
 /*Container (quadrado vermelho q guarda os elementos)*/
 .vermelho {
-    transform: rotate(4deg); /*efeito dele virado de lado*/
+    transform: rotate(4deg);
     box-sizing: border-box;
     width: 100%;
     max-width: 300px;
@@ -53,11 +53,10 @@ main {
 
 
 }
-/*Deixa o item do lado virado do lado contrario*/
+
 .vermelho:nth-child(2n){
     transform: rotate(-4deg);
 }
-
 /*Deixa imagenzinha*/
 .vermelho img {
     width: 100%;
@@ -71,7 +70,7 @@ button {
     color: white;
     font-size: 18px;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     text-transform: uppercase;
     transition: all 0.3s ease-in-out;
 }
